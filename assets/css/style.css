@@ -1,0 +1,148 @@
+/* el css esta ordenado literalmente de arriba a abajo tal cual como se ve en la pagina */
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: #ffffffe8;
+    color: #373838;
+}
+header div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.encabezado a{
+    color: #373838;
+}  /* color links principales */
+
+.imagen-con-texto .texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+} /* imagen principal */
+
+button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+p{
+    font-size: 35%
+}
+button{
+    color: white;
+    background-color:rgb(255, 157, 0)
+}/* boton principal */
+
+.info{
+    text-align: center;
+}
+
+.info p{
+    margin: 5px;
+    font-size: 90%;
+    font-style: normal;
+} /* estos ultimos 2 son del texto debajo de la imagen principal */
+.contenedor{
+    display: flex;
+    align-items: center;
+    margin: 80px;
+} /* links y imagen secundarios */
+
+.lista li a{
+    color: #373838;
+    font-size: 150%;
+} /* links */
+
+.indicador{
+    margin-left: 300px;
+} /* imagen secundaria mover a la derecha */
+
+main section{
+    display: flex;
+    justify-content: center;
+}
+
+main section div p{
+    font-size: 90%;
+    font-style: normal;
+}
+
+.card{
+    background-color: white;
+    border: 1px solid #212121;
+    padding: 10px;
+    margin: 100px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px#c0c0c0;
+}
+
+.presupuesto h2{
+    color: white;
+}
+
+.presupuesto{
+    margin: 10px;
+    text-align: center;
+    background-color: #373838;
+} /* los ultimos 2 son de la parte inferior */
+
+
+/* pagina Nosotros */
+.datos{
+    font-style: normal;
+    size: 50%;
+    font-size: 115%;
+    text-align: center;
+    margin: 10px;
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#pagina-2{
+    background-color: #fe9c25e8;
+}
+
+#barra-nav{
+    background-color:#373838;
+}
+
+#barra-nav div h1{
+    color: #fe9c25e8;
+}
+
+#barra-nav div a{
+    color: #fe9c25e8;
+}
+
+#button-pag2{
+    padding: 10px 15px;
+    font-size: 20px;
+    margin: 45px;
+    border-radius: 5px;
+}
+
+/* pagina galpones */
+
+#galpones-card .card{
+    margin: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
